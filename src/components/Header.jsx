@@ -1,13 +1,17 @@
+import { IoLogoApple } from "react-icons/io";
+
 const Header = () => {
   return (
     <div className="navbar  bg-mainBg   shadow-sm">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">
+          <IoLogoApple className="text-mainText text-5xl" />
+        </a>
       </div>
       <div className="flex-none">
         <input
           type="checkbox"
-          value="light"
+          value="coffee"
           className="toggle theme-controller"
         />
         <div className="dropdown dropdown-end">
