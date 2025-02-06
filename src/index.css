@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-mainBg: white;
+  --color-mainText: blue;
+}
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+@plugin "daisyui/theme" {
+  name: "coffee";
+  default: false;
+  --color-mainBg: black;
+  --color-mainText: white;
+}
